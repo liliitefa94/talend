@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_BshT4IYUEeiCZbwcWcJa3A" dataPackage="_Bsh7DYYUEeiCZbwcWcJa3A" DatabaseType="HBase" Port="2181" Username="cloudera" ServerName="quickstart.cloudera" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_Bsh68IYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_Bsh68YYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_Bsh68oYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="quickstart.cloudera:8030"/>
+    <parameters xmi:id="_Bsh684YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_Bsh69IYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://quickstart.cloudera:8020"/>
+    <parameters xmi:id="_Bsh69YYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_USERNAME" value="cloudera"/>
+    <parameters xmi:id="_Bsh69oYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_kD-zoIYREeiCZbwcWcJa3A"/>
+    <parameters xmi:id="_Bsh694YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bsh6-IYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_Bsh6-YYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart.cloudera:8032"/>
+    <parameters xmi:id="_Bsh6-oYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="quickstart.cloudera:10020"/>
+    <parameters xmi:id="_Bsh6-4YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_Bsh6_IYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HBASE_ZNODE_PARENT" value="/hbase"/>
+    <parameters xmi:id="_Bsh6_YYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_Bsh6_oYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_DB_SERVER" value="quickstart.cloudera"/>
+    <parameters xmi:id="_Bsh6_4YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_Bsh7AIYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Bsh7AYYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bsh7AoYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Bsh7A4YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_Bsh7BIYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Bsh7BYYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_Bsh7BoYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Bsh7B4YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_Bsh7CIYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bsh7CYYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_Bsh7CoYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Bsh7C4YUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HBASE_SET_ZNODE_PARENT" value="true"/>
+    <parameters xmi:id="_Bsh7DIYUEeiCZbwcWcJa3A" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Bsh7DYYUEeiCZbwcWcJa3A" name="HBase" dataManager="_BshT4IYUEeiCZbwcWcJa3A"/>
+</xmi:XMI>
