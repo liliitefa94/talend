@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_GIZQAIYZEeiCZbwcWcJa3A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_GIZQAYYZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_hiveAdditionalJDBCParameters" prompt="hadooptest_HIVE_hiveAdditionalJDBCParameters?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_GIZQAoYZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_Password" prompt="hadooptest_HIVE_Password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_GIZQA4YZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_Port" prompt="hadooptest_HIVE_Port?" promptNeeded="false" type="id_String" value="10000"/>
+  <contextParameter xmi:id="_GIZQBIYZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_Login" prompt="hadooptest_HIVE_Login?" promptNeeded="false" type="id_String" value="cloudera"/>
+  <contextParameter xmi:id="_GIZQBYYZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_Server" prompt="hadooptest_HIVE_Server?" promptNeeded="false" type="id_String" value="quickstart.cloudera"/>
+  <contextParameter xmi:id="_GIZQBoYZEeiCZbwcWcJa3A" comment="" name="hadooptest_HIVE_Database" prompt="hadooptest_HIVE_Database?" promptNeeded="false" type="id_String" value="default"/>
+</talendfile:ContextType>
