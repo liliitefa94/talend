@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_qSO64IXrEei3Odwvc8xFiw" label="Brockle14" description="" language="java" technicalLabel="BROCKLE14" creationDate="2018-07-12T10:51:02.000-0500" author="_qSO64YXrEei3Odwvc8xFiw" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/liliitefa94/talend&quot;,&quot;login&quot;:&quot;liliitefa94&quot;,&quot;passwd&quot;:&quot;ieY1x80ccr1j/iKXrNcLFDlpJ5XomdMH&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM"/>
+  <TalendProperties:User xmi:id="_qSO64YXrEei3Odwvc8xFiw" login="lrecalde@kruger.com.ec" firstName="Lilian" lastName="Recalde" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
