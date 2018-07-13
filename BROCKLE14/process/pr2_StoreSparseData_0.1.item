@@ -421,18 +421,21 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tHBaseOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="224">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseOutput_1" show="false"/>
+  <node componentName="tHBaseOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseOutput_3" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_BdINAIYUEeiCZbwcWcJa3A" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHBaseConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="EMR_5_5_0" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHBaseConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="Cloudera_CDH5_10" show="false"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HBASE" value="" show="false"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="HADOOP_CUSTOM_VERSION" value="HADOOP_1" show="false"/>
-    <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;" show="false"/>
-    <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_ZNODE_PARENT" value="false" show="false"/>
-    <elementParameter field="TEXT" name="ZNODE_PARENT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="context.hadooptest_HBASE_Server" show="false"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="context.hadooptest_HBASE_Port" show="false"/>
+    <elementParameter field="CHECK" name="SET_ZNODE_PARENT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="ZNODE_PARENT" value="context.hadooptest_HBASE_Znode_Parent" show="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false" show="false"/>
     <elementParameter field="TEXT" name="HBASE_MASTER_PRINCIPAL" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;" show="false"/>
     <elementParameter field="TEXT" name="HBASE_REGIONSERVER_PRINCIPAL" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;" show="false"/>
@@ -508,8 +511,9 @@
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
     <elementParameter field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="hadooptest_HBASE"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tHBaseOutput_1">
+    <metadata connector="FLOW" name="tHBaseOutput_3">
       <column comment="" defaultValue="" key="false" length="-1" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;sequence&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;sequence identifier&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;s1\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;start value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100000 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;step&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
@@ -552,17 +556,20 @@
     </metadata>
   </node>
   <node componentName="tHBaseOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseOutput_2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseOutput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_BdINAIYUEeiCZbwcWcJa3A" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHBaseConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="EMR_5_5_0" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHBaseConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="Cloudera_CDH5_10" show="false"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HBASE" value="" show="false"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="HADOOP_CUSTOM_VERSION" value="HADOOP_1" show="false"/>
-    <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;" show="false"/>
-    <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_ZNODE_PARENT" value="false" show="false"/>
-    <elementParameter field="TEXT" name="ZNODE_PARENT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="context.hadooptest_HBASE_Server" show="false"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="context.hadooptest_HBASE_Port" show="false"/>
+    <elementParameter field="CHECK" name="SET_ZNODE_PARENT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="ZNODE_PARENT" value="context.hadooptest_HBASE_Znode_Parent" show="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false" show="false"/>
     <elementParameter field="TEXT" name="HBASE_MASTER_PRINCIPAL" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;" show="false"/>
     <elementParameter field="TEXT" name="HBASE_REGIONSERVER_PRINCIPAL" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;" show="false"/>
@@ -638,8 +645,9 @@
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
     <elementParameter field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="hadooptest_HBASE"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tHBaseOutput_2">
+    <metadata connector="FLOW" name="tHBaseOutput_1">
       <column comment="" defaultValue="" key="false" length="-1" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;sequence&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;sequence identifier&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;s1\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;start value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100000 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;step&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
@@ -683,10 +691,10 @@
   </node>
   <node componentName="tHBaseClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseClose_2" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHBaseConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tHBaseConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="64">
+  <node componentName="tHBaseConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHBaseConnection_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_BdINAIYUEeiCZbwcWcJa3A" show="false"/>
@@ -730,13 +738,16 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tHBaseOutput_2">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tHBaseOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="out_with_NULLS" lineStyle="0" metaname="out_with_NULLS" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tHBaseOutput_1">
+  <connection connectorName="FLOW" label="out_with_NULLS" lineStyle="0" metaname="out_with_NULLS" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tHBaseOutput_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out_with_NULLS" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHBaseConnection_2" offsetLabelX="0" offsetLabelY="0" source="tHBaseConnection_2" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
